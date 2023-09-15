@@ -172,6 +172,11 @@ input::placeholder {
         font-size: 2vw;
 
     }
+    #item_name:focus {
+        width: 70vw;
+        height: 5vw;
+        font-size: 2vw;
+    }
 
     .botao {
         height: 7vw;
