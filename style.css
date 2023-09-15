@@ -151,3 +151,48 @@ input::placeholder {
     color: var(--cor-fundo2);
 
 }
+
+@media (max-width: 870px) {
+
+    .container-conteudo {
+
+        margin: 5%;
+
+
+    }
+
+    .titulo {
+        font-size: 5vw;
+        font-family: 600;
+    }
+
+    #item_name {
+        width: 70vw;
+        height: 5vw;
+        font-size: 2vw;
+
+    }
+
+    .botao {
+        height: 7vw;
+        text-align: start;
+        border-radius: 10px 20px 20px 10px;
+        font-size: 2vw;
+        width: 13vw;
+    }
+
+    .lista-item {
+        font-size: 5vw;
+        grid-template-columns: 5vw 60vw auto;
+    }
+
+    .remove-button {
+        width: 5em;
+        font-size: 3vw;   
+    }
+
+    .item-check{
+        width: 4vw;
+        height: 4vw;
+    }
+}
