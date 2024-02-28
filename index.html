@@ -11,12 +11,20 @@
     <title>Lista de Compras</title>
 </head>
 
-<body>
+<body class="body-container">
     <header class="cabecalho">
-
+        <div class="container-cor">
+            <select id="cor-favorita" name="cor_favorita" onchange="trocaCor()">
+                <option value="" style="background-color: #ffffff;">Temas</option>
+                <option value="#412e28" style="background-color: #412e28;">Temas</option>
+                <option value="#f0f1bc" style="background-color: #f0f1bc;">Temas</option>
+                <option value="#72a061" style="background-color: #72a061;">Temas</option>
+            </select>
+        </div>
     </header>
 
     <main class="container-conteudo">
+        
         <h1 class="titulo">Sua Lista de Compras</h1>
         <div class="container_add">
             <input type="text" id="item_name" placeholder="Digite um item para a lista de compras">
@@ -28,6 +36,7 @@
         </div>
     </main>
     <script src="main.js"></script>
+    <script src="cor.js"></script>
 </body>
 
 </html>

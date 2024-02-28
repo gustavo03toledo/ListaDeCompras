@@ -6,6 +6,7 @@
     --cor-fundo2: #fefefe;
     --fonte: 'Poppins', sans-serif;
     --cor-fonte1: #116A7B;
+    --cor-place:rgba(0, 0, 0, 0.562);
 }
 
 body {
@@ -63,7 +64,7 @@ input::placeholder {
     text-align: center;
 
     width: 100%;
-    color: rgba(0, 0, 0, 0.562);
+    color: var(--cor-place);
     font-size: 1em;
 
 }
@@ -150,6 +151,30 @@ input::placeholder {
 
     color: var(--cor-fundo2);
 
+}
+
+.container-cor{
+    display: flex;
+    background-color: var(--cor-fundo2);
+    align-items: center;
+    justify-content: ;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#cor-favorita {
+    width: 70px; 
+    font-size: 13px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+#cor-favorita option {
+    padding: 10px; 
+    
+    margin: 2px;
 }
 
 @media (max-width: 870px) {
